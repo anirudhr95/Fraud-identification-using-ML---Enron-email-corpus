@@ -38,6 +38,7 @@ For **Feature selection** I used both Tree-based feature selection and Select-K-
 * fit_intercept : [True , False]
 
 3. Linear-SVM :
+
 * loss = ['hinge','squared_hinge']
 * max_iter = [100,200,500,1000,10000]
 * tolerance = [1e-2 , 1e-4 , 1e-6 , 1e-8 , 1e-10],
