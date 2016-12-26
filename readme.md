@@ -25,11 +25,13 @@ For **Feature selection** I used both Tree-based feature selection and Select-K-
 
 ### Parameters tuned :
 1. Extra Trees classifier :
+
 * n_estimators - [5 , 10 , 15]
 * criterion = ['gini' , 'entropy']
 * min_sample_split = [2 , 3 , 4 , 5 , 10 ]
 
 2. Logistic Regression :
+
 * max_iter = [100, 200 , 300 , 500 , 1000 , 10000]
 * penalty = ['l1' , 'l2'] (liblinear uses both l1 and l2 , liblinear with dual uses only l2 and newton-cg , sags , lbfgs use only l2).
 * solver = ['liblinear' , 'newton-cg' , 'sag', 'lbfgs'].
