@@ -115,7 +115,7 @@ for i in my_dataset :
   my_dataset[i]['ratio_from_poi'] = ratio_from_poi
   my_dataset[i]['ratio_shared_receipt'] = ratio_shared_receipt
 
-### CHOOTH SCRIPT UNDERNEATH 
+### Verification - print
 # ______________________________________________
 
 # for i in my_dataset:
@@ -126,7 +126,7 @@ for i in my_dataset :
 #   break
 
 #______________________________
-# end of chooth script
+# end of verification
 
 
 # def log_features(x) :
